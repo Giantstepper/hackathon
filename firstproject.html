@@ -7,18 +7,21 @@
 
 	<link rel="stylesheet" type="text/css" href="firstproject.css">
 </head>
-
+<title>The Claremont Hunger Games</title>
 <body>
 	<div class="center">
-		<h1 class="ask">What would you like to eat today?</h1>
-
-		<button type="button" onclick="roulette()" class="<button type="button" class="<button type="button" class="btn btn-danger">Danger</button>">Clickme!</button>">Submit</button>
-		<p id="demo"></p>
-		<p id='print'>
-		Eat or be eaten.
-		</p>
+		<p>As truibute of the Claremont Colleges Hunger Games...</p>
+		<h1 class="ask">Sate your hunger at...</h1>
+		
+		<button type="button" onclick="roulette()" class="<button type="button" class="<button type="button" class="btn btn-danger">You hungry?</button>
+		<div class="outcome">
+			<p id="demo"></p>
+			<p id='print'>
+			May the odds be forever be in your favor...
+			</p>
+		</div>
 	
-		<p class="option">Don't know what to eat? Click below for each college's menu!</p>
+		<p class="option">Are you too afraid? Click below for each college's menu!</p>
 
 		<div class="btn-group" role="group" aria-label="...">
   			<button type="button" class="btn btn-default" id="cmc"><a href="https://aspc.pomona.edu/menu/#cmc_menu">CMC</a></button>
@@ -37,7 +40,7 @@
 
 
 function roulette() {
-    var myArray=['Frary', 'Frank', 'Oldenbourg', 'Collins', 'Mallot', 'Mudd','Pitzer'];
+    var myArray=['Frary', 'Frank', 'Oldenbourg', 'Collins', 'Mallot', 'Mudd','Pitzer','Adventure to the Village','Order out','Envoy Now!','Your roomates secret stash','Guilty pleasure'];
     var rand=myArray[Math.floor(Math.random()*myArray.length)]
     console.log(rand)
     document.getElementById("print").innerHTML = rand;
