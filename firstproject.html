@@ -33,14 +33,24 @@
   			<button type="button" class="btn btn-default" id="pitzer"><a href="https://aspc.pomona.edu/menu/#pitzer_menu">Pitzer</a></button>
   			<button type="button" class="btn btn-default" id="oldenborg"><a href="https://aspc.pomona.edu/menu/#oldenborg_menu">Oldenborg</a></button>
 		</div>
+		<audio controls id="audio">
+  <source src="assets/noise.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 	</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
 <script src="app.js"></script>
 <script>
+var aud = document.getElementById("audio"); 
 
+	function playVid() { 
+	    aud.play(); 
+	} 
 function roulette() {
-    var myArray=['Frary', 'Frank', 'Oldenbourg', 'Collins', 'Mallot', 'Mudd','Pitzer','Adventure to the Village','Order out','Envoy Now!','Your roomates secret stash','Guilty pleasure'];
+	
+	playVid();
+    var myArray=['Frary', 'Frank', 'Oldenbourg', 'Collins', 'Mallot', 'Mudd','Pitzer','Adventure to the Village','Order out','Envoy Now!','Your roommate&#146s secret stash &#61&#41','Guilty pleasure'];
     var rand=myArray[Math.floor(Math.random()*myArray.length)]
     console.log(rand)
     document.getElementById("print").innerHTML = rand;
