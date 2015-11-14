@@ -30,3 +30,26 @@ form {
         position: relative;
         text-align: center
 }
+
+
+#cmc {
+        background-color: darkred;
+}
+#frary {
+        background-color: dodgerblue;
+}
+#frank {
+        background-color: deepskyblue;
+}
+#scripps {
+        background-color: darkolivegreen;
+}
+#pitzer {
+        background-color: darkorange;
+}
+#mudd {
+        background-color: goldenrod;
+}
+#oldenborg {
+        background-color: gainsboro;
+}
