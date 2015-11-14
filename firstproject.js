@@ -13,7 +13,7 @@ $(document).ready(function(){
 </head>
 <body>
 
-<p>If you click on me, I will disappear.</p>
+<p>If you click on me, I will disappear. Will it?</p>
 <p>Click me away!</p>
 <p>Click me too!</p>
 
