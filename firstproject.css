@@ -54,22 +54,43 @@ form {
 
 #cmc {
         background-color: darkred;
+} 
+#cmc a {
+        color: white; 
 }
 #frary {
         background-color: dodgerblue;
 }
+#frary a {
+        color: white;
+}
 #frank {
         background-color: deepskyblue;
+}
+#frank a {
+        color: white;
 }
 #scripps {
         background-color: darkolivegreen;
 }
+#scripps a {
+        color: white;
+}
 #pitzer {
         background-color: darkorange;
+}
+#pitzer a {
+        color: white;
 }
 #mudd {
         background-color: goldenrod;
 }
+#mudd a {
+        color: white;
+}
 #oldenborg {
-        background-color: gainsboro;
+        background-color: slategray;
+}
+#oldenborg a {
+        color: white;
 }
