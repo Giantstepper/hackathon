@@ -3,9 +3,10 @@
         padding-top: 100px;
         font-style: bold;
 }
+#audio {display:none;}
 
 body {
-        background-image: url('hackathon/cmc.jpg');
+        background-image: url('assets/cmc.jpg');
         background-size: cover;
 }
 
