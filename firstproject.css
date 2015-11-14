@@ -25,16 +25,8 @@ form {
         color:#207cca
 }
 
-.nav-bar li{
-        display: inline
-}
-
 .ask {
         color: blue;
         position: relative;
         text-align: center
-}
-
-.nav-bar {
-        text-align: center;
 }
