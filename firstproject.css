@@ -1,7 +1,12 @@
 .center{
         text-align: center;
-        padding-top: 200px;
+        padding-top: 140px;
+        font-style: bold;
 }
+
+body {
+        background-image: url('hackathon/cmc.jpg');
+        background-size: cover;
 
 form {
         width:500px;
@@ -29,27 +34,4 @@ form {
         color: blue;
         position: relative;
         text-align: center
-}
-
-
-#cmc {
-        background-color: darkred;
-}
-#frary {
-        background-color: dodgerblue;
-}
-#frank {
-        background-color: deepskyblue;
-}
-#scripps {
-        background-color: darkolivegreen;
-}
-#pitzer {
-        background-color: darkorange;
-}
-#mudd {
-        background-color: goldenrod;
-}
-#oldenborg {
-        background-color: gainsboro;
 }
