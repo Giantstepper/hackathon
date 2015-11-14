@@ -1,12 +1,17 @@
 .center{
         text-align: center;
-        padding-top: 130px;
+        padding-top: 100px;
         font-style: bold;
 }
 
 body {
-        background-image: url('hackathon/cmc.jpg');
+        background-image: url('assets/cmc.jpg');
         background-size: cover;
+}
+
+p {
+        color: white;
+        font-size: 30px;
 }
 
 form {
@@ -19,7 +24,7 @@ form {
         border:0px solid #dbdbdb
 }
 
-.button {
+button {
         position:relative;
         padding:6px 15px;
         left:-8px;
@@ -27,7 +32,7 @@ form {
         background-color:#207cca;
         color:#fafafa
 }
-.button:hover  {
+button:hover  {
         background-color:#fafafa;
         color:#207cca
 }
@@ -37,7 +42,8 @@ form {
         position: relative;
         text-align: center;
         font-family: verdana, serif;
-        font-size: 75px;
+        font-size: 50px;
+        padding-bottom: 40px;
 }
 
 .option {
@@ -48,8 +54,23 @@ form {
         margin-right: 350px;
         margin-left: 350px;
         margin-bottom: 45px;
-        background-color: slategray;
+        margin-top: 50px;
+        background-color: #a80b00;
+        background-color: rgba(168, 11, 0, 0.48);
         text-align: center;
+}
+
+.outcome {
+        color: white;
+        font-size: 150px;
+        width: 800px;
+        border: 10px white;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 45px;
+        text-align: center;
+        background-color: #a80b00;
+        background-color: rgba(168, 11, 0, 0.48);
 }
 
 #cmc {
